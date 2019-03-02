@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="no-js">
+	<head>
+		<meta http-equiv="Content-Type">
+		<meta content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<title>食控之旅</title>		
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+		<meta name="apple-touch-fullscreen" content="YES">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="Expires" content="-1">
+		<meta http-equiv="pragram" content="no-cache">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="email=no">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/flyer.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+    	
+		<div id="content">
+            <section class="u-audio" onClick="mus()">
+                <div class="btn_audio" >
+                    <div class="css_sprite01 audio_open musicIconRotate">
+                        <audio preload="auto" class="res_audio" id="musicplayer" src="music/RaminDjawadi.mp3" loop></audio>
+                    </div>
+                </div>
+            </section>
+            <section style="position:absolute;top:0px; left:10px; z-index:299">
+            	<img src="images/d-left.png" width="100" height="22" style="transform: rotateY(180deg)"/>
+                <button class="btn" style=" margin-top:10px;width:70px; line-height:20px; float:left">跳过</button>
+            </section>
+			<div class="page page-1-1 introduce page-current">
+				<div class="wrap">
+					<div class="skzl">
+						<div style=" width:14%; margin-left:5%;-webkit-animation: rotateIn 600ms 600ms 1 both;"><img src="images/y.png" width="100%"/></div>
+						<div style=" width:48%; margin-left:-13%; margin-top:5px"><img src="images/skzl.png" width="100%"/></div>
+						<div style=" width:35%; margin-left:2%; margin-top:30px;"><img src="images/g-sk.png" width="100%"/></div>
+					</div>
+					<div style="clear:both"></div>
+					<div style="position:relative">
+						<img src="images/l-dq.png" width="93%"/>
+						<div style="position:absolute; top:20px;; left:20%; width:60%;">
+							<img style="-webkit-animation: rotateIn 600ms 100ms 1 both;" src="images/bg.png" width="100%"/>
+							<div style="position:absolute; top:20px;; left:18%; width:64%;">
+								<img style="-webkit-animation: flash 1000ms 100ms 1 forwards;" src="images/qcnx.png" width="100%"/>
+								<img style="-webkit-animation: flash 1000ms 200ms 1 forwards;" src="images/jcsx.png" width="100%"/>
+							</div>
+							<div style="margin-left:-10%; margin-top:12px;-webkit-animation: zoomInLeft 1000ms 600ms 1 both;"><img src="images/hdrq.png" width="110%"/></div>
+						</div>
+					</div>
+					<div style="position:relative; text-align:center; margin-top:7%">
+						<img src="images/js-bg.png" width="85%" style=" margin-left:-5%;-webkit-animation: zoomInLeft 1000ms 200ms 1 both;"/>
+						<div style="position:absolute; top:25px;; right:0; width:60%;-webkit-animation: zoomInRight 1000ms 600ms 1 both;"><img src="images/ts-js.png" width="100%"/></div>
+						<div class="sm" style="animation: slideUp 800ms 1000ms 1 both; text-align:left;text-indent:2em; line-height:1.3">
+							活动期间，云南省农村信用社金碧贷记卡、白金卡、工惠卡、借记卡持卡人关注“昆明农信官方微信”进入抢美食红包活动页面
+							<span>输入卡号</span>即随机
+							<span>抢价值30元至200元美食微信红包</span>，每个微信客户活动期间内限参与一次抽奖！
+						</div>
+					</div>
+					<img class=" page-up pt-page-moveIconUp" src="images/icon_up.png"/>
+				</div>
+			</div>
+			<div class="page page-2-1 card hide" style="overflow:hidden"> 
+				<div class="wrap">
+					<div><img src="images/ys1.png" width="100%"/></div>
+                    <div style="position:absolute; top:0px; left:0; width:100%">
+                    	<div style="margin-left:20px; margin-top:30px; text-align:left"><img src="images/xzdl.png" width="80%"/></div>
+                        <div style="position:relative">
+                        	<div class="djk" style="position:absolute; top:15px; left:40px;-webkit-animation: zoomInDown 800ms 300ms 1 both;">
+                            	<img src="images/djk.png" width="90"/>
+                            	<img src="images/djkx.png" width="120" style="position:absolute; top:-20px; left:60px;-webkit-animation: pullUp 600ms 1600ms 1 both;"/>
+                            </div>
+                            <div  class="bjk" style="position:absolute; top:70px; right:10px;-webkit-animation: zoomInLeft 800ms 600ms 1 both;">
+                            	<img src="images/bjk.png" width="110"/>
+                            	<img src="images/bjkx.png" width="120" style="position:absolute; top:-15px; left:-50px;-webkit-animation: pullUp 600ms 1600ms 1 both;"/>
+                            </div>
+                            <div  class="ghk" style="position:absolute; top:100px; left:100px;-webkit-animation: zoomInUp 800ms 900ms 1 both;">
+                            	<img src="images/ghk.png" width="140"/>
+                            	<img src="images/ghkx.png" width="120" style="position:absolute; top:50px; left:-90px;-webkit-animation: pullUp 600ms 1600ms 1 both;"/>
+                            </div>
+                            <div  class="sbk" style="position:absolute; top:260px; left:20px;-webkit-animation: zoomInLeft 800ms 1200ms 1 both;">
+                            	<img src="images/sbk.png" width="110"/>
+                            	<img src="images/sbkx.png" width="140" style="position:absolute; top:-5px; left:60px;-webkit-animation: pullUp 600ms 1600ms 1 both;"/>
+                            </div>
+                            <div  class="jjk" style="position:absolute; top:220px; right:15px;-webkit-animation: zoomInRight 800ms 1400ms 1 both;">
+                            	<img src="images/jjk.png" width="90"/>
+                            	<img src="images/jjkx.png" width="90" style="position:absolute; top:50px; left:-60px;-webkit-animation: pullUp 600ms 1600ms 1 both;"/>
+                            </div>
+                        </div>
+                        <div class="skzl" style="position: fixed; bottom:15px;-webkit-animation: rotateIn 1200ms 600ms 1 both;">
+                        	<div style=" width:48%; margin-left:-13%; margin-top:5px; float:right; margin-right:20px"><img src="images/skzl.png" width="100%"/></div>
+                            <div style=" width:12%; margin-left:10%;float:right"><img src="images/y.png" width="100%"/></div>
+                        </div>
+                    </div>
+					<img class=" page-up pt-page-moveIconUp" src="images/icon_up.png"/>
+				</div>
+			</div>
+			<div class="page page-3-1 business hide">
+				<div class="wrap">
+					<div class="skzl">
+                        	<div style=" width:48%; margin-left:-13%; margin-top:5px; float:right; margin-right:20px;-webkit-animation: rotateIn 600ms 600ms 1 both;">
+							<img src="images/skzl.png" width="100%"/></div>
+                            <div style=" width:12%; margin-left:10%;float:right;-webkit-animation: rotateIn 600ms 600ms 1 both;"><img src="images/y.png" width="100%"/></div>
+                        </div>
+						<div style="position:relative">
+                        	<div id="tk" style="position:absolute; width:40%; z-index:999; top:80px; left:10%;-webkit-animation: zoomInDown 1600ms 600ms 1 both;">
+                            	<img src="images/wxing.png" width="100%"/>
+                            	<button class="btn" style="position:absolute;width:50%; line-height:30px;  top:10px; left:0px;-webkit-animation: bounce 1000ms 0ms 6 forwards;">碳烤站</button>
+                            </div>
+                            <div id="hx" style="position:absolute;width:40%;z-index:999; top:120px; right:10%;-webkit-animation: zoomInLeft 1600ms 700ms 1 both;">
+                            	<img src="images/wxing.png" width="100%"/>
+                            	<button class="btn" style="position:absolute;width:50%; line-height:30px;top:60px;left:70px;-webkit-animation: bounce 1000ms 0ms 6 forwards;;">海鲜站</button>
+                            </div>
+                            <div id="rl" style="position:absolute;width:40%;z-index:999; top:230px; left:10%;-webkit-animation: zoomInUp 1600ms 800ms 1 both;">
+                            	<img src="images/wxing.png" width="100%"/>
+                            	<button class="btn" style="position:absolute; width:50%; line-height:30px; top:10px; left:0px;-webkit-animation: bounce 1000ms 0ms 6 forwards;">日料站</button>
+                            </div>
+                            <div id="tp" style="position:absolute;width:40%;z-index:999; top:270px; right:10%;-webkit-animation: zoomInRight 1600ms 900ms 1 both;">
+                            	<img src="images/wxing.png" width="100%"/>
+                            	<button class="btn" style="position:absolute;width:50%; line-height:30px;  top:60px; left:70px;-webkit-animation: bounce 1000ms 0ms 6 forwards;">甜品站</button>
+                            </div>
+                        </div>
+						<div style="position:fixed; bottom:20px; text-align:left">
+							<img style="-webkit-animation: zoomInRight 1400ms 800ms 1 both;" src="images/dhk.png" width="80%"/>
+							<div style=" color:#94E9FF; text-shadow:3px 3px 6px #333; position:absolute; top:28%;text-align:left; left:20%;-webkit-animation: zoomInLeft 1400ms 800ms 1 both;">
+								能量不足？<br/>请选择您感兴趣的食控站<br/>来补充能量吧！ 
+							</div>
+						</div>
+						<div style=" position:fixed; bottom:120px; right:0; z-index:999">
+							<div id="dmf" style=" position:absolute; right:0; top:0"><img src="images/dm-f.png" height="35"/></div>
+							<div id="on" style=" position:absolute; right:0; top:40px"><img src="images/dm-on.png" height="35"/></div>
+							<div id="off" style=" position:absolute; display:none; right:0; top:40px"><img src="images/dm-off.png" height="35"/></div>
+						</div>
+						<div id="ys" style="animation:zoomIn 600ms 0ms 1 forwards; position:absolute; top:0; z-index:1; width:100%">
+						<img src="images/ys.png" width="100%" style="display:block"/></div>
+						<section id="flyerCommentPanel" class="flyerCommentPanel">
+							<div class="flyerCommentPage show" style="display: block; height: 420px;">
+								<div class="flyerCommentLine" style="top: 0px; left: 0px; width: 1500px; transform: translate3d(0px, 0px, 0px);">
+									<div class="flyerComment" style="width: 750px;">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://wx.qlogo.cn/mmopen/Q3auHgzwzM79zWdb4RAc63pAEgDhiapiagGgibn5Gn5tl9QHVcmPcviaBz92ib0U8j34jXhzsKozKYicfuAO7dIsibw4onDpmKvyKVbQh7ibwTW2RHA/132);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">你好</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://wx.qlogo.cn/mmopen/Q3auHgzwzM79zWdb4RAc63pAEgDhiapiagGgibn5Gn5tl9QHVcmPcviaBz92ib0U8j34jXhzsKozKYicfuAO7dIsibw4onDpmKvyKVbQh7ibwTW2RHA/132);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">你好</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://wx.qlogo.cn/mmopen/lpHDr05YrIQqjFOCI1y78KBsuDxOicLMEn9OrCy9HKEGf5BAqJ9qtwmbeHsBryxPth3n8VkPpX0FU3w9x7OHXuVyiaX6szboWn/132);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">123</span></div>
+									</div>
+									<div class="flyerComment" style="width: 750px;">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://wx.qlogo.cn/mmopen/Q3auHgzwzM79zWdb4RAc63pAEgDhiapiagGgibn5Gn5tl9QHVcmPcviaBz92ib0U8j34jXhzsKozKYicfuAO7dIsibw4onDpmKvyKVbQh7ibwTW2RHA/132);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">你好</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://wx.qlogo.cn/mmopen/Q3auHgzwzM79zWdb4RAc63pAEgDhiapiagGgibn5Gn5tl9QHVcmPcviaBz92ib0U8j34jXhzsKozKYicfuAO7dIsibw4onDpmKvyKVbQh7ibwTW2RHA/132);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">你好</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://wx.qlogo.cn/mmopen/lpHDr05YrIQqjFOCI1y78KBsuDxOicLMEn9OrCy9HKEGf5BAqJ9qtwmbeHsBryxPth3n8VkPpX0FU3w9x7OHXuVyiaX6szboWn/132);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">123</span></div>
+									</div>
+								</div>
+								<div class="flyerCommentLine" style="top: 50px; left: 0px; width: 1500px; transform: translate3d(0px, 0px, 0px);">
+									<div class="flyerComment" style="width: 750px;">
+										<div class="flyerCommentFloat"><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000390.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000394.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000397.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+									</div>
+									<div class="flyerComment" style="width: 750px;">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000390.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000394.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000397.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+									</div>
+								</div>
+								<div class="flyerCommentLine" style="top: 100px; left: 0px; width: 2050px; transform: translate3d(0px, 0px, 0px);">
+									<div class="flyerComment" style="width: 750px;">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000383.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你装逼带你飞，</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000382.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">老司机带路,快上车</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000381.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+									</div>
+									<div class="flyerComment">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000383.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你装逼带你飞，</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000382.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">老司机带路,快上车</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000381.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+									</div>
+								</div>
+								<div class="flyerCommentLine" style="top: 150px; left: 0px; width: 2542px; transform: translate3d(0px, 0px, 0px);">
+									<div class="flyerComment">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000380.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000388.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000385.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你装逼带你飞，</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000380.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">老司机带路,快上车</span></div>
+									</div>
+									<div class="flyerComment">
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000380.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000388.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带我飞</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000385.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">带你装逼带你飞，</span></div>
+										<div class="flyerCommentFloat "><span class="flyerCommPortrait" style="background-image:url(http://cd.faisys.com/image/templateLib/0000380.jpg);background-size: cover;background-position:0 0;"></span><span class="flyerCommContent">老司机带路,快上车</span></div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+			</div>
+            
+            </div>
+			<div id="modet" style="display: none; position:fixed; top:0;-webkit-animation: zoomInUp 800ms 0ms 1 both;">
+				<div style="float:right; margin-right:15px; margin-top:5px">
+					<img src="images/d-left.png" width="150" style="float:left"/>
+					<button id="cloes" style="float:left; line-height:24px; width:75px; margin-top:10px" class="btn">返回</button>
+				</div>
+				<div class="clear"></div>
+				<div style=" text-align:center; margin-top:10%; position: relative;-webkit-animation: zoomInLeft 1400ms 800ms 1 both;">
+					<div id="cord_name" class="btn" style="width:100px; float:left; line-height:32px; margin-left:40px; margin-bottom:-20px; font-size:1.2em">工会卡</div>
+					<img src="images/c-bg.png" width="95%"/>
+					<div style=" position:absolute; top:25.1%; padding-left:20px"><img id="cord" src="images/c.png" width="76%"/></div>
+				</div>
+				<div style="overflow-y: scroll;height:115px; width:100%;-webkit-animation: zoomInRight 1400ms 800ms 1 both;" class="sel_cord">
+					<div style="height:115px;" class="c_list">
+						<div class="djk"><img src="images/djk.png"/><span><img src="images/z-djkx.png" width="100%"/></span></div>
+						<div class="bjk"><img src="images/bjk.png"/><span><img src="images/z-bjkx.png" width="100%"/></span></div>
+						<div class="ghk"><img src="images/ghk.png"/><span><img src="images/z-ghkx.png" width="100%"/></span></div>
+						<div class="sbk"><img src="images/sbk.png"/><span><img src="images/z-sbkx.png" width="100%"/></span></div>
+						<div class="jjk"><img src="images/jjk.png"/><span><img src="images/z-jjkx.png" width="100%"/></span></div>
+					</div>
+				</div>
+				<div class="bg"></div>
+			</div>
+            <div id="info" style="display: none;-webkit-animation: zoomInLeft 1000ms 0ms 1 forwards;">
+				<div style="float:right; margin-right:15px; margin-top:5px">
+					<img src="images/d-left.png" width="150" style="float:left"/>
+					<button id="info_cloes" style="float:left; line-height:24px; width:75px; margin-top:10px" class="btn">返回</button>
+				</div>
+				<div class="clear"></div>
+				<div style="padding-left:10%; margin-top:10%; position:relative">
+					<img src="images/tpz.png" width="90%"/>
+                    <div style="text-align:center; position:absolute; top:8px; left:39%; width:120px; text-align:center">
+                    	<span style="color:#F7D600; font-size:17px" id="type">甜品站·</span>
+                        <span style="color:#94E9FF; font-size:13px" id="title">酒窝甜品</span>
+                    </div>
+					<div style="text-align:center; position:absolute; top:18%; left:20%; width:60%; color:#00A5D9">
+                    	<p style="text-indent:2em; text-align:left; line-height:1.3" id="cont"></p>
+                        <p  style="text-indent:2em;text-align:left; margin-top:10px"><span  style="color:#94E9FF;">地址</span>:<span id="address"></span></p>
+                        <p  style="text-indent:2em;text-align:left;margin-top:5px"><span  style="color:#94E9FF;">预定电话</span>:<span id="Telephone"></span></p>
+                    </div>
+				</div>
+				<div style="padding-left:2%; margin-top:5%; position:relative">
+					<img src="images/lq.png" width="70%"/>
+					<button class="btn" style="position:absolute;width:30%; line-height:34px;  top:40px; left:38%;-webkit-animation: bounce 1000ms 0ms 6 forwards;">点击领券</button>
+				</div>
+				<div class="bg"></div>
+			</div>
+			<div id="info" style="display: none;-webkit-animation: zoomInLeft 1000ms 0ms 1 forwards;">
+				<div style="float:right; margin-right:15px; margin-top:5px">
+					<img src="images/d-left.png" width="150" style="float:left"/>
+					<button id="info_cloes" style="float:left; line-height:24px; width:75px; margin-top:10px" class="btn">返回</button>
+				</div>
+				<div class="clear"></div>
+				<div style="padding-left:10%; margin-top:10%; position:relative">
+					<img src="images/tpz.png" width="90%"/>
+                    <div style="text-align:center; position:absolute; top:8px; left:39%; width:120px; text-align:center">
+                    	<span style="color:#F7D600; font-size:17px" id="type">甜品站·</span>
+                        <span style="color:#94E9FF; font-size:13px" id="title">酒窝甜品</span>
+                    </div>
+					<div style="text-align:center; position:absolute; top:18%; left:20%; width:60%; color:#00A5D9">
+                    	<p style="text-indent:2em; text-align:left; line-height:1.3" id="cont"></p>
+                        <p  style="text-indent:2em;text-align:left; margin-top:10px"><span  style="color:#94E9FF;">地址</span>:<span id="address"></span></p>
+                        <p  style="text-indent:2em;text-align:left;margin-top:5px"><span  style="color:#94E9FF;">预定电话</span>:<span id="Telephone"></span></p>
+                    </div>
+				</div>
+				<div style="padding-left:2%; margin-top:5%; position:relative">
+					<img src="images/lq.png" width="70%"/>
+					<button class="btn" style="position:absolute;width:30%; line-height:34px;  top:40px; left:38%;-webkit-animation: bounce 1000ms 0ms 6 forwards;">点击领券</button>
+				</div>
+				<div class="bg"></div>
+			</div>
+			<div id="dm" style="display:none ;-webkit-animation: zoomInUp 800ms 0ms 1 both;">
+				<div style="padding:18px 0; border-bottom:1px solid #818181">
+					<div id="dm_cloes" style="width:10%; margin-top:4px; padding-right:2%;float:left; line-height:36px; height:36px; text-align:right">
+						<img src="images/lt.gif" height="32px"/>
+					</div> 
+					<div style="width:70%;float:left"><input type="text" class="dmf" placeholder="请输入弹幕"/></div>
+					<div style="width:15%;margin-top:4px;float:left; line-height:36px; height:36px; font-size:1.6em; text-align:right;">发送</div>
+					<div class="clear"></div>
+				</div>
+				<div style="color:#F7D600; font-size:1.2em; margin-top:20px; margin-left:5%">*请输入内容后再提交</div>
+				<div class="bg"></div>
+			</div>
+			
+		<script language="JavaScript" src="js/zepto.min.js"></script>
+		<script language="JavaScript" src="js/touch.js"></script>
+		<script language="JavaScript" src="js/index.js"></script>
+		<script type="text/javascript">		
+		function mus(){
+			$("img").ondragstart="return false;"
+			var music = document.getElementById("musicplayer");
+			if(music.paused){
+				music.play();
+				$(".audio_open").addClass("musicIconRotate");
+			}else{
+				music.pause()
+				$(".audio_open").removeClass("musicIconRotate");
+			};
+		}
+		$(function(){			 
+			$("#cloes").click(function(){
+				$("#modet").hide();	
+				$(".u-audio").show();
+			});
+			$("#dm_cloes").click(function(){
+				$("#dm").hide();	
+				$(".u-audio").show();
+			});
+			$("#info_cloes").click(function(){
+				$("#info").hide();	
+				$(".u-audio").show();
+			});
+			$(".djk").click(function(){
+				$("#modet").show();
+				$(".u-audio").hide();
+				$("#cord_name").text("贷记卡");
+				$(".c_list .djk").addClass("active").siblings().removeClass("active");
+				$(".sel_cord").scrollLeft(0*90);
+				$("#cord").attr('src','images/c-djk.png');
+			});
+			$(".bjk").click(function(){
+				$("#modet").show();
+				$(".u-audio").hide();
+				$("#cord_name").text("白金卡");
+				$(".c_list .bjk").addClass("active").siblings().removeClass("active");
+				$(".sel_cord").scrollLeft(1*90)
+				$("#cord").attr('src','images/c-bjk.png');
+			});
+			$(".ghk").click(function(){
+				$("#modet").show();
+				$(".u-audio").hide();
+				$("#cord_name").text("工惠卡");
+				$(".c_list .ghk").addClass("active").siblings().removeClass("active");
+				$(".sel_cord").scrollLeft(2*90)
+				$("#cord").attr('src','images/c-ghk.png');
+			});
+			$(".sbk").click(function(){
+				$("#modet").show();
+				$(".u-audio").hide();
+				$("#cord_name").text("社保卡");
+				$(".c_list .sbk").addClass("active").siblings().removeClass("active");
+				$(".sel_cord").scrollLeft(3*90)
+				$("#cord").attr('src','images/c-sbk.png');
+			});
+			$(".jjk").click(function(){
+				$("#modet").show();
+				$(".u-audio").hide();
+				$(".c_list .jjk").addClass("active").siblings().removeClass("active");
+				$(".sel_cord").scrollLeft(4*90)
+				$("#cord_name").text("借记卡");
+				$("#cord").attr('src','images/c-jjk.png');
+			}); 
+			$("#tk").click(function(){
+				$("#info").show();
+				$("#type").html("碳烤站·");
+				$("#title").html("堂  灼");
+				$("#cont").html("<span style='color:#F7D600'>堂灼</span>位于万达广场四楼4013号，首创前厨石锅碳烤餐厅，开放式烹饪，现场和大厨学做菜；美国旧工业时期loft风格，餐厅混搭酒吧，吃饭还能看钢管舞。主推石锅、串烧。现场烹饪制作，看得见的健康，吃得到的美味。");
+				$("#address").html("万达广场4楼4013");
+				$("#Telephone").html("0871-63839999");
+			});
+			$("#rl").click(function(){
+				$("#info").show();
+				$("#type").html("日料站·");
+				$("#title").html("菊  轩");
+				$("#cont").html("<span style='color:#F7D600'>菊轩</span>（日本料理）起源于日本列岛，逐渐发展成为独具日本特色的菜肴。和食要求色自然、味鲜美、形多样、器精良，而且材料和调理法重视季节感。");
+				$("#address").html("万达广场4楼4023B");
+				$("#Telephone").html("0871-63662209");
+			});
+			$("#tp").click(function(){
+				$("#info").show();
+				$("#type").html("甜品站·");
+				$("#title").html("酒窝甜品");
+				$("#cont").html("<span style='color:#F7D600'>香港酒窝甜品</span>，全球甜品连锁品牌，亚太港式甜品两大品牌之一，新甜品领导者，“分子美食国际工作室”成员。香港酒窝甜品由香港资本集团和广州九龙玖餐饮管理有限公司联合筹建，专注于顶级甜品的研发制造和营造新的生活方式。");
+				$("#address").html("昆明西山万达广场F3");
+				$("#Telephone").html("087164572486");
+			});
+			$("#hx").click(function(){
+				$("#info").show();
+				$("#type").html("海鲜站·");
+				$("#title").html("水  货");
+				$("#cont").html("<span style='color:#F7D600'>水货</span>是全国首创无餐具的美式水产品餐厅，绿色环保，主打各式虾蟹贝类水产品，同时提供各类特色饮品和酒水，以及西式小食。");
+				$("#address").html("万达广场3楼");
+				$("#Telephone").html("059528685757");
+			});
+			$("#on").click(function(){
+				$(this).hide();
+				$("#off").show();
+				$("#flyerCommentPanel .flyerCommentPage").removeClass("show");
+				$("#dmf").hide();
+			});
+			$("#off").click(function(){
+				$(this).hide();
+				$("#on").show();
+				$("#flyerCommentPanel .flyerCommentPage").addClass("show")
+				$("#dmf").show()
+			});
+			$("#dmf").click(function(){
+				$("#dm").show();
+				$(".dmf").focus()
+			});
+			var h=0;
+			setTimeout(function(){$("#ys").css("animation","pulse 4000ms 0ms infinite linear forwards")},600);
+			s(h);
+			function s(h){
+				setTimeout(function(){
+					$(".flyerCommentLine").css("transform","translate3d(-"+h+"px, 0, 0)"); 
+					var w= $(".flyerCommentLine .flyerComment").width();
+					if(h<w){
+						h=h+1;	
+					}else{
+						h=0;
+					}
+					s(h)
+				},10);
+			}
+		});
+	</script> 
+	</body>
+</html>
